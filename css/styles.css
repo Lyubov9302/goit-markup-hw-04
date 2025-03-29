@@ -154,6 +154,17 @@ color: #404BBF;
 .start-page {
 background-color: #2e2f42;
  padding: 188px 0;
+ max-width: 1440px;
+ margin: 0 auto;
+ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)
+     ),
+     url(../images/mainbg.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+background-size: cover;
+
 }
 
 .start-title {
@@ -197,7 +208,7 @@ padding: 120px 0;
     display: flex;
     justify-content: space-between;
     gap: 24px;
-}
+    
 
 .visually-hidden {
     position: absolute;
@@ -289,6 +300,17 @@ flex-direction: column;
     color: #434455;
     text-align: center;
 }
+
+.socials-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.icon-soc {
+    fill:#404BBF;
+}
+
 
 .portfolio {
     padding: 120px 0;
